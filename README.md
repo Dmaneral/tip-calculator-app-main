@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Dmaneral/tip-calculator-app-main](https://github.com/Dmaneral/tip-calculator-app-main)
+- Live Site URL: [https://dmaneral.github.io/tip-calculator-app-main/](https://dmaneral.github.io/tip-calculator-app-main/)
 
 ## My process
 
@@ -45,9 +45,4 @@ With this project, I practiced JavaScript and using it in Web Applications
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-
+- Frontend Mentor - [@Dmaneral](https://www.frontendmentor.io/profile/Dmaneral)
