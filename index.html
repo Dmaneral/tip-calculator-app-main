@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+    <header>
+      <img src="./images/logo.svg" alt="logo">
+    </header>
+    <main>
+      <div class="input-valley">
+
+        <div class="bill-wrapper">
+          <label for="bill">Bill</label>
+          <div class="input-wrapper">
+            <img src="./images/icon-dollar.svg" alt="dollar" class="icon">
+            <input type="number" id="bill" class="bill-input num-input" placeholder="0">
+          </div>
+        </div>
+
+        <div class="tips-selector">
+          <label for="tip">Select Tip %</label>
+          <div class="tips-wrapper">
+            <button class="btn-tip active">5%</button>
+            <button class="btn-tip">10%</button>
+            <button class="btn-tip">15%</button>
+            <button class="btn-tip">25%</button>
+            <button class="btn-tip">50%</button>
+            <input type="number" placeholder="Custom" class="tip-input" id="tip-input">
+          </div>         
+        </div>
+
+        <div class="people-wrapper">
+          <label for="person">Number of People</label>
+          <div class="input-wrapper">
+            <img src="./images/icon-person.svg" alt="person" class="icon">
+            <input type="number" id="person" class="person-input num-input" placeholder="0">
+          </div>
+        </div>
+      </div>
+      
+      <div class="output-valley">
+        <div class="main-info">
+            <div class="amount-wrapper">
+            <div class="tip-type">
+              <h1>Tip Amount</h1>
+              <p>/ person</p>
+            </div>
+            <div class="tip-amount-wrapper">
+              <h2 id="amount-tip">$4.27</h2>
+            </div>
+          </div>
+
+          <div class="amount-wrapper">
+            <div class="tip-type">
+              <h1>Total</h1>
+              <p>/ person</p>
+            </div>
+            <div class="tip-amount-wrapper">
+              <h2 id="amount-total">$32.79</h2>
+            </div>
+          </div>
+        </div>
+        
+        <button id="reset" class="btn-reset">Reset</button>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
